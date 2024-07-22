@@ -3,13 +3,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body,html{
     height: 100%;
     width: 100%;
+    background-color: #dadada;
 }
 
 main{
@@ -19,7 +19,7 @@ main{
     padding:15px;
    grid-template-columns: 25% 25% 25% 25%;
    grid-template-rows: 25% 55% 20%;
-   background-color: #dadada;
+  
 }
 
 .right{
@@ -183,6 +183,7 @@ main{
     .right video{
        border-radius: 5px;
        padding: 55px 9px 0 9px;
+       height : 35vh;
     }
     
     #arrow{
